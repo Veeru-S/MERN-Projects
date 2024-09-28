@@ -10,7 +10,7 @@ app.use(express.json());
 app.use(cors());
 
 const mongoURI: string =
-  "mongodb+srv://machadop1407:UvOUTpZW7EH85MZl@personalfinancetracker.qb0edtk.mongodb.net/";
+  "mongodb+srv://veeru:<db_password>@cluster0.n5ozt.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
 
 mongoose
   .connect(mongoURI)
